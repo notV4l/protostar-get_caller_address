@@ -1,0 +1,10 @@
+[project]
+protostar-version = "0.9.1"
+lib-path = "lib"
+
+[contracts]
+main = ["src/main.cairo"]
+secondary = ["src/secondary.cairo"]
+
+[test]
+disable-hint-validation = true
